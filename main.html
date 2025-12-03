@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buchen.de</title>
+    <link rel="stylesheet" href="design.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        Meine Reisen
+    </nav>
+
+    <!-- TABS -->
+    <div class="tabs">
+        <div class="tab active" data-target="upcoming">Zukünftige Reisen</div>
+        <div class="tab" data-target="past">Vergangene Reisen</div>
+        <div class="tab" data-target="canceled">Stornierte Reisen</div>
+    </div>
+
+    <!-- ZUKÜNFTIGE REISEN -->
+    <div id="upcoming" class="trip-list active">
+        <div class="trip-card">
+            <div class="trip-title">Hotel Seaside Resort – Spanien</div>
+            <div class="trip-date">Anreise: 20.12.2025</div>
+        </div>
+    </div>
+
+    <!-- VERGANGENE REISEN -->
+    <div id="past" class="trip-list">
+        <div class="trip-card">
+            <div class="trip-title">Mountain Inn – Österreich</div>
+            <div class="trip-date">Abreise: 15.07.2024</div>
+        </div>
+    </div>
+
+    <!-- STORNIERTE REISEN -->
+    <div id="canceled" class="trip-list">
+        <div class="trip-card">
+            <div class="trip-title">City Hotel – London</div>
+            <div class="trip-date">Storniert am 03.03.2025</div>
+        </div>
+    </div>
+
+<script src="use.js"></script>
+
+
+</body>
+</html>
